@@ -1,0 +1,41 @@
+.header{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(0, 0, 148);
+    width: absolute;
+    height: 120px;
+    border: 1px solid black;
+    color:azure;
+    font-size: 24px;
+}
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+.busca{
+    display: flex;
+    width:180px;
+    height: 22px;
+    background-color: rgb(81, 81, 255);
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-right: 6px;
+    margin-top: 30px;
+}
+.buscaBut{
+    display: flex;
+    align-items: center;
+    background-color:grey ;
+    color:white;
+    width: 55px;
+    height:50px;
+    margin-right: 45px;
+    margin-top: 30px;
+    border-radius:30px;
+}
+.buscaBut:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
