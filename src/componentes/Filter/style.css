@@ -1,0 +1,37 @@
+.filters{
+    display:flex;
+    width:absolute;
+    height:40px;
+
+    background: rgb(134,134,134);
+    background: linear-gradient(90deg, rgba(134,134,134,1) 0%, rgba(158,158,163,1) 23%, rgba(195,195,198,1) 43%, rgba(223,225,227,1) 62%, rgba(234,235,236,1) 83%, rgba(249,251,251,1) 100%);
+    
+    border:1px solid black;
+}
+nav .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width:700px;
+    height:40px;
+
+    margin-right: 30px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+a{  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+    margin:40px;
+}
+.menu a:hover{
+    text-decoration:underline;
+    
+}
