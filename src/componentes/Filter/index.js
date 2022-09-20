@@ -6,12 +6,12 @@ export default function Filter(props){
         <div className="filters">
             <nav className="menu">
                 
-                    <a href="#">Placa mãe</a>
-                    <a href="#">Processador</a>
-                    <a href="#">Memória RAM</a>
-                    <a href="#">Armazenamento</a>
-                    <a href="#">Acessórios</a>
-                    <a className="faleC" href="">Fale conosco</a>
+                    <a className="link-menu-header" href="#">Placa mãe</a>
+                    <a className="link-menu-header" href="#">Processador</a>
+                    <a className="link-menu-header" href="#">Memória RAM</a>
+                    <a className="link-menu-header" href="#">Armazenamento</a>
+                    <a className="link-menu-header" href="#">Acessórios</a>
+                    <a className="link-menu-header" href="">Fale conosco</a>
                 
             </nav>
         </div>

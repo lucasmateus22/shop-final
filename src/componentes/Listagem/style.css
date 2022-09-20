@@ -1,0 +1,21 @@
+.lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: absolute;
+    min-height: 500px;
+
+    background: rgb(0,18,255);
+background: linear-gradient(90deg, rgba(0,18,255,1) 16%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 84%, rgba(0,18,255,1) 86%);
+}
+.center-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 1200px;
+
+}

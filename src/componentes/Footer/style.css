@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+
+    width: absolute;
+    height: 300px;
+
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(111,111,111,1) 18%, rgba(111,111,111,1) 82%, rgba(0,0,0,1) 100%);
+}
+.endereco{
+    margin-top: 80px;
+    margin-left: 90px;
+    
+}
+.redes{
+    margin-top: 80px;
+    margin-right: 90px;
+}
+.sobre{
+    margin-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
